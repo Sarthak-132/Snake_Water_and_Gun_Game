@@ -29,6 +29,9 @@ btn.addEventListener("click", function() {
     else if(user_input === 'g' && computer_input === 's'){
         output.innerHTML = 'Congrats! You Won the Game';
     }
+    else{
+        output.innerHTML = "This is invalid.... Please enter valid string";
+    }
 });
 
 
