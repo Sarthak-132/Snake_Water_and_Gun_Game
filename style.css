@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.card-header{
+    background: linear-gradient(#ff5bb2, #ff4646);
+    color: rgb(0, 255, 191);
+}
+
+.card-body{
+    background: linear-gradient(#fbb451, #ff6969);
+}
+
+.card-text, .card-title{
+    color: white;
+}
+
+.card h1{
+    font-weight: bolder;
+}
+
+.card-title{
+    font-weight: bolder;
+}
+
+.heading-text{
+    color: black;
+}
+
