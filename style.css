@@ -8,16 +8,17 @@
 }
 
 .card-header{
-    background: linear-gradient(#ff5bb2, #ff4646);
-    color: rgb(0, 255, 191);
+    
+    background: linear-gradient(#fbb451, #ff9595);
+    color: rgb(5, 6, 2);
 }
 
 .card-body{
-    background: linear-gradient(#fbb451, #ff6969);
+    background: linear-gradient(#ffcd88, #e48080);
 }
 
 .card-text, .card-title{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .card h1{
@@ -32,3 +33,10 @@
     color: black;
 }
 
+#output{
+    color: black;
+}
+
+.option{
+    color: #a80000;
+}
