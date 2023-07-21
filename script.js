@@ -6,7 +6,7 @@ let computer_input = computer[Math.floor(Math.random()*computer.length)];
 btn.addEventListener("click", function() {
     let user_input = document.getElementById('input').value;
     if(user_input===''){
-        output.innerHTML = 'Type something';
+        output.innerHTML = 'Please Type something';
     }
     else if(user_input === computer_input){
         output.innerHTML = 'OOPS! Match Tie';
